@@ -1,0 +1,18 @@
+1.	view Main
+	splash
+	login
+	view buku;
+	view buku detail
+	view kategori buku
+	view jenis buku	
+	view anggota
+	view anggota detail
+	view peminjaman
+	view peminjaman detail
+	view user
+	view user detail
+	view jenis user
+	
+
+	
+	

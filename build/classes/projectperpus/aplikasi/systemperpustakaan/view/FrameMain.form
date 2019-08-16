@@ -1,0 +1,574 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="radioNimbus.setSelected(true);"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="buttonGroup.add(radioNimbus);&#xa;buttonGroup.add(radioWindows);&#xa;buttonGroup.add(radioMetal);&#xa;buttonGroup.add(radioMotif);"/>
+      </AuxValues>
+    </Component>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="menuFile">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuFileSearch">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+F"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Search"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuFileAddNew">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+N"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Add New"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuFileDetail">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F2"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Detail"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuFileDelete">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+D"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuFileRefresh">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F5"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Refresh"/>
+              </Properties>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator4">
+            </MenuItem>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuFileClose">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Close"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuFileLogout">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+L"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Log Out"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuFileExit">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuEdit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuEditAdd">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cut"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuEditUpdate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Copy"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuEditDelete">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Paste"/>
+              </Properties>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuView">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="View"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="menuViewBuku">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Buku"/>
+              </Properties>
+              <SubComponents>
+                <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuViewBukuList">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+B"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="List Buku"/>
+                  </Properties>
+                </Menu>
+                <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuViewBukukategori">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Kategori Buku"/>
+                  </Properties>
+                </Menu>
+                <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuViewBukuJenis">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jenis Buku"/>
+                  </Properties>
+                </Menu>
+                <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuViewBukuPenerbit">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Penerbit Buku"/>
+                  </Properties>
+                </Menu>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="menuViewAnggota">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Anggota"/>
+              </Properties>
+              <SubComponents>
+                <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuViewAnggotaList">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+M"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="List Anggota"/>
+                  </Properties>
+                </Menu>
+                <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuViewAnggotaJurusan">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jurusan Anggota"/>
+                  </Properties>
+                </Menu>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Peminjaman"/>
+              </Properties>
+              <SubComponents>
+                <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuViewPeminjamanList">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+T"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="List Peminjaman"/>
+                  </Properties>
+                </Menu>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator5">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="menuViewUser">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="User"/>
+              </Properties>
+              <SubComponents>
+                <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuViewUserList">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+U"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="List User"/>
+                  </Properties>
+                </Menu>
+                <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuViewUserType">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Type User"/>
+                  </Properties>
+                </Menu>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuReport">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Report"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuReportView">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="View Report"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuReportDownload">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Download Report"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuReportPrint">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Print Report"/>
+              </Properties>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuTools">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tools"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuToolsNotepad">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Notepad"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuToolsCalculator">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Calculator"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuToolsOptions">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Options"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Look And Feel"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JRadioButtonMenuItem" name="radioNimbus">
+                  <Properties>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="Nimbus"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JRadioButtonMenuItem" name="radioWindows">
+                  <Properties>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="Windows"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JRadioButtonMenuItem" name="radioMetal">
+                  <Properties>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="Metal"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JRadioButtonMenuItem" name="radioMotif">
+                  <Properties>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="Motif"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuWindow">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Window"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuTile">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tile Windows"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuCascade">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cascade Windows"/>
+              </Properties>
+            </Menu>
+            <Menu class="ahza.aplikasi.systemperpustakaan.component.MyMenu" name="menuAbout">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="About"/>
+              </Properties>
+            </Menu>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="toolBar" alignment="0" pref="858" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Component id="desktopPane" alignment="0" pref="858" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="toolBar" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="desktopPane" pref="510" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JToolBar" name="toolBar">
+      <Properties>
+        <Property name="floatable" type="boolean" value="false"/>
+        <Property name="rollover" type="boolean" value="true"/>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+      <SubComponents>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonSearch">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/Finddata toolbarS.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Search Data"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonDetail">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/detail toolbar.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Detail Data"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonRefresh">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/Refresh toolbar.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Refresh"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator2">
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonAddNew">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/Addnew toolbar.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Add New"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonEdit">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/Edit toolbar.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Edit "/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonDelete">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/Delete toolbar.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Delete"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator1">
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonListBuku">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/buku.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="List Buku"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonListAnggota">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/anggota.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="List Anggota"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonListPeminjaman">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/peminjaman.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="List Peminjaman"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator3">
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonViewReport">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/viewreport toolbar.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="View Report"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonDownload">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/downloadpdf toolbar.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Download Report"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonPrint">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/print toolbar.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Print Report"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToolBar$Separator" name="jSeparator6">
+        </Component>
+        <Component class="ahza.aplikasi.systemperpustakaan.component.MyButton" name="buttonClose">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/Close Toolbar.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Close Form"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="buttonLogout">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/logout.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Log Out"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="buttonExit">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/ahza/aplikasi/systemperpustakaan/image/ExitToolbar.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Exit"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDesktopPane" name="desktopPane">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="System Informasi Perpustakaan"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout"/>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="labelUserName" min="-2" pref="516" max="-2" attributes="0"/>
+                  <EmptySpace pref="118" max="32767" attributes="0"/>
+                  <Component id="labelDate" min="-2" pref="224" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelUserName" alignment="3" pref="14" max="32767" attributes="0"/>
+                      <Component id="labelDate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="11" pref="11" max="11" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="labelUserName">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="    SYSTEM INFORMASI PERPUSTAKAAN Version 1.0.0   Welcome: Muhamad Nur    "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelDate">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="2011-02-15"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
